@@ -15,9 +15,13 @@ function setup() {
   box2=new Brick(600,300,50,50);
   box3=new Brick(600,300,50,50);
   box4=new Brick(600,300,50,50);
-  ball=new ball(500,300);
+  box5=new Brick(550,300,50,50);
+  box6=new Brick(550,300,50,50);
+  box7=new Brick(550,300,50,50);
+  box8=new Brick(550,300,50,50);
+  ball=new ball(300,300);
 
-  rope=new string(ball.body,{x:500,y:20})
+  rope=new string(ball.body,{x:300,y:20})
 }
 
 function draw() {
@@ -28,6 +32,10 @@ function draw() {
   box2.display();
   box3.display();
   box4.display();
+  box5.display();
+  box6.display();
+  box7.display();
+  box8.display();
   ball.display();
   rope.display();
 }
